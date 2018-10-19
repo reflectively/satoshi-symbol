@@ -1,7 +1,3 @@
-# Challenge: No general consensus yet
-
-tbc intro...
-
 # Why sat needs its own symbol (in near future)
 
 http://www.unicode.org/versions/Unicode10.0.0/
