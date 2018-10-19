@@ -1,5 +1,7 @@
 # Challenge: No general consensus yet
 
+tbc intro...
+
 # Why sat needs its own symbol
 
 http://www.unicode.org/versions/Unicode10.0.0/
