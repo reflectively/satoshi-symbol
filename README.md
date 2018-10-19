@@ -27,6 +27,7 @@ BIP Jimmy Song Bits
 calculate USD inflation and new money printed
 
 It's reasonable to expect BTC to go up to 100k USD by 2022.
+![Bitcoin price forecast](btc-logreg-price.jpg)
 
 Log regression adoption price for BTC:
 https://twitter.com/TuurDemeester/status/1029132554769760256
