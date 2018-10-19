@@ -23,11 +23,18 @@ https://twitter.com/TuurDemeester/status/1029132554769760256
 
 ## Examples for micro transactions:
 
+Use cases:
+
+* Ingame transactions for items
+* Content access (text, audio, video)
+* Coffee purchase
+* Royalty and licensing collection/calculation
+
 1 BTC = 100k USD:
 
 * 0.19 USD = 190sat = 1.9 bits
 * 0.39 USD = 390sat = 3.9 bits
-* 0.99 USD = 990sat  = 9.9 bits
+* 0.99 USD = 990sat = 9.9 bits
 * 4.99 USD = 4990sat 49.90 bits
 * 9.99 USD = 9990sat = 99.99 bits
 
@@ -41,12 +48,14 @@ In this scenario 1 bit = 1 USD makes everything easier
 * 4.99 USD = 499sat = 4.99 bits
 * 9.99 USD = 999sat = 9.99 bits
 
-# Examples from other currencies and units
+# Historical examples from other currencies and units 
 
 * 1€ = 100 ¢
 * $1 = 100 ¢
 * 1¥ = 100
 * 1
+
+//research history of denominations, especially with gold and silver
 
 # Existing Proposals
 
@@ -62,6 +71,18 @@ Symbols:
 
 Universally understood as a subunit to BTC
 Hence should be 
+
+# Proposel symbols
+
+## 1. small s with 3 lines
+
+Good: clear distinction from dollar symbol
+Bad: Still looks too similar to dollar symbol
+
+## 2. capital s with a dot above
+
+Good: Not used in any character set
+Bad: Does not exist in unicode
 
 # Possible issues with this proposal
 
