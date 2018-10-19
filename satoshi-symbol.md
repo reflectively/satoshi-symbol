@@ -59,12 +59,14 @@ In this scenario 1 bit = 1 USD makes everything easier
 
 // https://de.wikipedia.org/wiki/%C2%A5 includes currency symbols
 
+Often a latin letter with a horizontal, vertical or 45° angle is used for currency denomination
+
 * 1€ = 100 ¢
 * $1 = 100 ¢
 * 1¥ = 100 sen (did not have an intl symbol)
 ...
 
-//research history of denominations, especially with gold and silver
+//todo: research history of denominations
 
 # Existing Proposals
 
@@ -72,9 +74,11 @@ https://en.bitcoin.it/wiki/Satoshi_(unit)
 
 # Currently existing S based characters and symbols
 
-Characters:
+Unicode Characters:
+///tbc
 
-Symbols:
+Unicode Symbols:
+///tbc
 
 # Requirements
 
@@ -96,5 +100,27 @@ Bad: Does not exist in unicode
 
 # Possible issues with this proposal
 
-1. how to get the symbol to keyboard without the industry adopting it into a standard. maybe just typing sat should be enough.
-2. 
+## Many sub-units don't have a symbol and are used just fine:
+
+Examples: 
+
+1. Meter
+2. gramm
+3. Pascal
+4. ...
+
+## sat unit is not widely adopted and cannot be confused
+
+## a new artifically created symbol and enforced by a top-down approach (devs to users) is not in the "spirit" of bitcoin
+
+It's hard to estimate if and how the btc ecosystem will be willing to use their resources
+
+## no added value
+
+Since the unit abbreviation 1sat is not really widely used for anything worldwide, a dedicated symbol might be unnecessary.
+
+# Credits
+
+All the credits go to Satoshi Nakamoto for the initial design of Bitcoin, to all Bitcoin developers, volunteers, supporters, users, miners, influencers, believers.
+
+Special thanks to Jimmy Song whose [BIP 176](https://github.com/bitcoin/bips/blob/master/bip-0176.mediawiki) inspired me to propose this idea to the Bitcoin community.
