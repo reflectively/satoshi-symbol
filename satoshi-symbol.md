@@ -95,7 +95,7 @@ Unicode Symbols:
 * latin character based
 * no confusion with other unit symbols
 
-# Proposel symbols
+# Proposed symbols
 
 ## 1. latin small letter s with dot above
 
