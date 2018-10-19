@@ -2,9 +2,17 @@
 
 # Challenge: No general consensus yet
 
+# Why sat needs its own symbol
+
+http://www.unicode.org/versions/Unicode10.0.0/
+BTC was added to unicode standard
+
+## Closed ecosystem is the ultimate goal
+
 * Samourai removed USD denomination
 * Lightning is coming, micro transactions will be a thing
-* Closed ecosystem is the ultimate goal: Building a habit early on for users to think in satoshis
+
+**Building a habit early on for users to think in satoshis**
 
 # Compatibility with other BIPs
 
@@ -20,28 +28,28 @@ It's reasonable to expect BTC to go up to 100k USD by 2022.
 Log regression adoption price for BTC:
 https://twitter.com/TuurDemeester/status/1029132554769760256
 
-
 ## Examples for micro transactions:
 
-Use cases:
+Use cases for sat denomination:
 
 * Ingame transactions for items
 * Content access (text, audio, video)
+* Partial content access (e.g. pay per second of consumption)
 * Coffee purchase
 * Royalty and licensing collection/calculation
 
 1 BTC = 100k USD:
-
+* 0.01 USD = 10sat = 0.1 bits
 * 0.19 USD = 190sat = 1.9 bits
 * 0.39 USD = 390sat = 3.9 bits
 * 0.99 USD = 990sat = 9.9 bits
 * 4.99 USD = 4990sat 49.90 bits
-* 9.99 USD = 9990sat = 99.99 bits
+* 9.99 USD = 9990sat = 99.90 bits
 
 1 BTC = 1mio USD:
 
 In this scenario 1 bit = 1 USD makes everything easier
-
+* 0.01 USD = 1sat = 0.01 bits
 * 0.19 USD = 19sat = 0.19 bits
 * 0.39 USD = 39sat = 0.39 bits
 * 0.99 USD = 99sat  = 0.99 bits
@@ -50,10 +58,12 @@ In this scenario 1 bit = 1 USD makes everything easier
 
 # Historical examples from other currencies and units 
 
+// https://de.wikipedia.org/wiki/%C2%A5 includes currency symbols
+
 * 1€ = 100 ¢
 * $1 = 100 ¢
-* 1¥ = 100
-* 1
+* 1¥ = 100 sen (did not have an intl symbol)
+...
 
 //research history of denominations, especially with gold and silver
 
@@ -69,8 +79,10 @@ Symbols:
 
 # Requirements
 
-Universally understood as a subunit to BTC
-Hence should be 
+* Internationally understood as a subunit to BTC
+* latin character based
+* no confusion with other unit symbols
+
 
 # Proposel symbols
 
