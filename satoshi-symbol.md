@@ -88,15 +88,26 @@ Unicode Symbols:
 
 # Proposel symbols
 
-## 1. small s with 3 lines
+## 1. latin small letter s with dot above
 
-Good: clear distinction from dollar symbol
-Bad: Still looks too similar to dollar symbol
+| ṡ |
+| - |
+| latin small letter s with dot above |
 
-## 2. capital s with a dot above
+Ṡ is used in Emilian-Romagnol to represent [z], e.g. faṡû [faˈzuː] "beans". It is used in Tunisian Arabic transliteration for /sˁ/ (based on Maltese with additional letters).
 
-Good: Not used in any character set
-Bad: Does not exist in unicode
+https://en.wikipedia.org/wiki/%E1%B9%A0
+
+Does exist in unicode
+Not really used for much in 
+
+## 2. ...small s with 45° line through it
+
+| //add image here |
+| - |
+| small s with 45° line through it |
+
+Does not exist in unicode, hence could make its own distinctive symbol
 
 # Possible issues with this proposal
 
