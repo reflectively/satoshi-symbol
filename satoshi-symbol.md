@@ -4,6 +4,8 @@
 
 http://www.unicode.org/versions/Unicode10.0.0/
 BTC was added to unicode standard
+List of all currency symbols in Unicode:
+https://www.unicode.org/charts/PDF/U20A0.pdf
 
 ## Closed ecosystem is the ultimate goal
 
@@ -71,6 +73,10 @@ Often a latin letter with a horizontal, vertical or 45° angle is used for curre
 # Existing Proposals
 
 https://en.bitcoin.it/wiki/Satoshi_(unit)
+Lists possible japanese symbols. Should be latin letter instaed for ww adoption
+
+https://www.reddit.com/r/Bitcoin/comments/8xcy81/introducing_a_new_symbol_for_satoshi/
+Coinranking proposal
 
 # Currently existing S based characters and symbols
 
@@ -107,6 +113,8 @@ Not really used for much in
 | - |
 | small s with 45° line through it |
 
+Similar like cent ¢ cent sign, just an s instead of a c
+
 Does not exist in unicode, hence could make its own distinctive symbol
 
 # Possible issues with this proposal
@@ -120,7 +128,7 @@ Examples:
 3. Pascal
 4. ...
 
-## sat unit is not widely adopted and cannot be confused
+## sat unit is not widely adopted and cannot be confused anyway
 
 ## a new artifically created symbol and enforced by a top-down approach (devs to users) is not in the "spirit" of bitcoin
 
