@@ -107,11 +107,9 @@ https://en.wikipedia.org/wiki/%E1%B9%A0
 Does exist in unicode
 Not really used for much in 
 
-## 2. ...small s with 45° line through it
+## 2. ...small s with 55° line through it
 
-| //add image here |
-| - |
-| small s with 45° line through it |
+![](sat-55deg-line.png)
 
 Similar like cent ¢ cent sign, just an s instead of a c
 
