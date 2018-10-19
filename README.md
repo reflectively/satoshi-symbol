@@ -35,18 +35,18 @@ https://twitter.com/TuurDemeester/status/1029132554769760256
 
 In this scenario 1 bit = 1 USD makes everything easier
 
-0.19 USD = 19sat = 0.19 bits
-0.39 USD = 39sat = 0.39 bits
-0.99 USD = 99sat  = 0.99 bits
-4.99 USD = 499sat = 4.99 bits
-9.99 USD = 999sat = 9.99 bits
+* 0.19 USD = 19sat = 0.19 bits
+* 0.39 USD = 39sat = 0.39 bits
+* 0.99 USD = 99sat  = 0.99 bits
+* 4.99 USD = 499sat = 4.99 bits
+* 9.99 USD = 999sat = 9.99 bits
 
 # Examples from other currencies and units
 
-1€ = 100 ¢
-$1 = 100 ¢
-1¥ = 100
-1
+* 1€ = 100 ¢
+* $1 = 100 ¢
+* 1¥ = 100
+* 1
 
 # Existing Proposals
 
