@@ -109,7 +109,7 @@ Not really used for much in
 
 ## 2. ...small s with 55° line through it
 
-![](sat-55deg-line.png)
+![](sat-55deg.png)
 
 Similar like cent ¢ cent sign, just an s instead of a c
 
