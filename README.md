@@ -25,11 +25,11 @@ https://twitter.com/TuurDemeester/status/1029132554769760256
 
 1 BTC = 100k USD:
 
-0.19 USD = 190sat = 1.9 bits
-0.39 USD = 390sat = 3.9 bits
-0.99 USD = 990sat  = 9.9 bits
-4.99 USD = 4990sat 49.90 bits
-9.99 USD = 9990sat = 99.99 bits
+* 0.19 USD = 190sat = 1.9 bits
+* 0.39 USD = 390sat = 3.9 bits
+* 0.99 USD = 990sat  = 9.9 bits
+* 4.99 USD = 4990sat 49.90 bits
+* 9.99 USD = 9990sat = 99.99 bits
 
 1 BTC = 1mio USD:
 
