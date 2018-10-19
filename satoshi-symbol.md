@@ -3,7 +3,8 @@
 # Why sat needs its own symbol
 
 http://www.unicode.org/versions/Unicode10.0.0/
-BTC was added to unicode standard
+BTC was added to unicode standard: http://www.unicode.org/L2/L2015/15229-bitcoin-sign.pdf
+
 List of all currency symbols in Unicode:
 https://www.unicode.org/charts/PDF/U20A0.pdf
 
