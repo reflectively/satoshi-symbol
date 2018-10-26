@@ -1,38 +1,18 @@
-# Why sat needs its own symbol (in near future)
+# Do we need a satoshi sign (symbol)
 
-http://www.unicode.org/versions/Unicode10.0.0/
-BTC was added to unicode standard: http://www.unicode.org/L2/L2015/15229-bitcoin-sign.pdf
+This is not a proposal, but rather a start for a discussion. I would love to receive feedback from BTC devs and users.
 
-List of all currency symbols in Unicode:
-https://www.unicode.org/charts/PDF/U20A0.pdf
+Tldr: A dedicated sathoshi might contribute to...:
+* Creating a closed ecosystem: Encourage thinking in satoshis instead of cents or USD -> move away from fiat based evaluation
+* UX/UI flexibility: especially mobile interfaces have limited amount of screen space. Going down from 3 to 1 characters doesn't sound a lot, but can contribute to user experience. E.g. bigger font size for better visibility.
 
-Avoid any confusion or multiple standards early on:
-
-![Source: https://xkcd.com/927/](https://imgs.xkcd.com/comics/standards.png)
-
-## Closed ecosystem is the ultimate goal
-
-* Samourai removed USD denomination
-* Lightning is coming, micro transactions will be a thing
-
-**Building a habit early on for users to think in satoshis**
-
-# Compatibility with other BIPs
-
-BIP Jimmy Song Bits
-
-# Examples for BTC prices
-
-## BTC price forecast
-calculate USD inflation and new money printed
+# Satoshi denomination due to rising BTC price
 
 It's reasonable to expect BTC to go up to 100k USD by 2022.
-![Bitcoin price forecast](btc-logreg-price.jpg)
+![Log regression adoption price for BTC](btc-logreg-price.jpg)
+Source: Tuur Demeester https://twitter.com/TuurDemeester/status/1029132554769760256
 
-Log regression adoption price for BTC:
-https://twitter.com/TuurDemeester/status/1029132554769760256
-
-## Examples for micro transactions:
+## Examples for micro transaction values:
 
 Use cases for sat denomination:
 
@@ -60,42 +40,64 @@ In this scenario 1 bit = 1 USD makes everything easier
 * 4.99 USD = 499sat = 4.99 bits
 * 9.99 USD = 999sat = 9.99 bits
 
-# Historical examples from other currencies and units 
+## Going subsatoshi
 
-// https://de.wikipedia.org/wiki/%C2%A5 includes currency symbols
+LN supports transactions < 1sat.
+Hence a clear denomination and distinction is required.
 
-Often a latin letter with a horizontal, vertical or 45° angle is used for currency denomination
+http://www.unicode.org/versions/Unicode10.0.0/
+BTC was added to unicode standard: http://www.unicode.org/L2/L2015/15229-bitcoin-sign.pdf
 
-* 1€ = 100 ¢
-* $1 = 100 ¢
-* 1¥ = 100 sen (did not have an intl symbol)
-...
+List of all currency symbols in Unicode:
+https://www.unicode.org/charts/PDF/U20A0.pdf
 
-//todo: research history of denominations
+Avoid any confusion or multiple standards early on:
+
+![Source: https://xkcd.com/927/](https://imgs.xkcd.com/comics/standards.png)
+
+## Closed ecosystem is the ultimate goal
+
+* Samourai removed USD denomination
+* Lightning is coming, micro transactions will be a thing
+
+**Building a habit early on for users to think in satoshis**
+# Use cases
+
+## Accounting
+
+Bitcoin Businesses have major pains to add BTC as a currency in their company books. Most bookkeeping Saas only support two decimals for currencies. Hence anything below 0.01 BTC (64.20 USD as of writing this) cannot be added natively. Special tools  (barely existent) or workarounds are mandatory which is a major pain in the industry.
+
+# Historical examples from other currencies and units
+
+dedicated currency signs often consist of a latin letter combined with a crossing horizontal, vertical or diagonal line.
+
+https://en.wikipedia.org/wiki/Currency_symbol
+https://en.wikipedia.org/wiki/Currency
+
+Out of the 20 most traded currencies worldwide 16 make use of a dedicated sign. The top 6 currencies all use a dedicated sign for main and sometimes the subdivision unit:
+
+1. USD: $1 = 100¢
+* EUR: 1€ = 100¢
+* JPY: 1¥ = 100 sen (did not have an intl symbol)
+* GBP: £1 = 100p (no dedicated sign)
+* AUD: $1 = 100c
+* CAD: $1 = 100¢
 
 # Existing Proposals
 
 https://en.bitcoin.it/wiki/Satoshi_(unit)
-Lists possible japanese symbols. Should be latin letter instaed for ww adoption
+List of possible japanese symbols suggested in the past. Widespread adoption unlikely in the eyes of the author. Historycally the haven't been any non-latin based international currency signs .
 
 https://www.reddit.com/r/Bitcoin/comments/8xcy81/introducing_a_new_symbol_for_satoshi/
-Coinranking proposal
+Coinranking proposed a latin S with a dot below the character. There hasn' been any widespread adoption or discussion for that.
 
-# Currently existing S based characters and symbols
+# Proposed symbols by the author
 
-Unicode Characters:
-///tbc
+## Requirements for symbol
 
-Unicode Symbols:
-///tbc
-
-# Requirements
-
-* Internationally understood as a subunit to BTC
+* Internationally understood as a subunit to BTC (the understanding has to be built with adoption by time)
 * latin character based
-* no confusion with other unit symbols
-
-# Proposed symbols
+* no confusion with signs of existing currencies or general units of measure
 
 ## 1. latin small letter s with dot above
 
@@ -103,41 +105,36 @@ Unicode Symbols:
 | - |
 | latin small letter s with dot above |
 
-Ṡ is used in Emilian-Romagnol to represent [z], e.g. faṡû [faˈzuː] "beans". It is used in Tunisian Arabic transliteration for /sˁ/ (based on Maltese with additional letters).
-
-https://en.wikipedia.org/wiki/%E1%B9%A0
+> Ṡ is used in Emilian-Romagnol to represent [z], e.g. faṡû [faˈzuː] "beans". It is used in Tunisian Arabic transliteration for /sˁ/ (based on Maltese with additional letters).
+> - https://en.wikipedia.org/wiki/%E1%B9%A0
 
 Does exist in unicode
-Not really used for much in 
+Not really used for much worldwide
 
 ## 2. ...small s with 55° line through it
 
 ![](sat-55deg.png)
 
-Similar like cent ¢ cent sign, just an s instead of a c
-
-Does not exist in unicode, hence could make its own distinctive symbol
+* Similar like cent ¢ cent sign, just an s instead of a c
+* Does not exist in unicode, hence could make its own distinctive symbol
 
 # Possible issues with this proposal
 
-## Many sub-units don't have a symbol and are used just fine:
+## Many subdivision-units don't have a sign and are used just fine:
 
 Examples: 
 
+1. GBP
 1. Meter
 2. gramm
 3. Pascal
-4. ...
+5. 
 
-## sat unit is not widely adopted and cannot be confused anyway
+## "sat" sign is not used for anything else and cannot be confused anyway
 
-## a new artifically created symbol and enforced by a top-down approach (devs to users) is not in the "spirit" of bitcoin
+The author is not aware of any international use of the "sat" sign for any kind of unit. Hence just sticking with sat mgiht be a viable solution.
 
-It's hard to estimate if and how the btc ecosystem will be willing to use their resources
-
-## no added value
-
-Since the unit abbreviation 1sat is not really widely used for anything worldwide, a dedicated symbol might be unnecessary.
+## Adoption 
 
 # Credits
 
