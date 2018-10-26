@@ -6,6 +6,20 @@ Tldr: A dedicated sathoshi might contribute to...:
 * Creating a closed ecosystem: Encourage thinking in satoshis instead of cents or USD -> move away from fiat based evaluation
 * UX/UI flexibility: especially mobile interfaces have limited amount of screen space. Going down from 3 to 1 characters doesn't sound a lot, but can contribute to user experience. E.g. bigger font size for better visibility.
 
+# BTC sign in Unicode
+
+http://www.unicode.org/versions/Unicode10.0.0/
+BTC was added to unicode standard: http://www.unicode.org/L2/L2015/15229-bitcoin-sign.pdf
+
+List of all currency symbols in Unicode:
+https://www.unicode.org/charts/PDF/U20A0.pdf
+
+# Clarity
+
+The goal is to avoid any confusion or multiple standards early on:
+
+![Source: https://xkcd.com/927/](https://imgs.xkcd.com/comics/standards.png)
+
 # Satoshi denomination due to rising BTC price
 
 It's reasonable to expect BTC to go up to 100k USD by 2022.
@@ -44,16 +58,6 @@ In this scenario 1 bit = 1 USD makes everything easier
 
 LN supports transactions < 1sat.
 Hence a clear denomination and distinction is required.
-
-http://www.unicode.org/versions/Unicode10.0.0/
-BTC was added to unicode standard: http://www.unicode.org/L2/L2015/15229-bitcoin-sign.pdf
-
-List of all currency symbols in Unicode:
-https://www.unicode.org/charts/PDF/U20A0.pdf
-
-Avoid any confusion or multiple standards early on:
-
-![Source: https://xkcd.com/927/](https://imgs.xkcd.com/comics/standards.png)
 
 ## Closed ecosystem is the ultimate goal
 
