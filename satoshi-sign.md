@@ -1,4 +1,4 @@
-# Do we need a satoshi sign (symbol)
+# Do we need a satoshi sign?
 
 This is not a proposal, but rather a start for a discussion. I would love to receive feedback from BTC devs and users.
 
